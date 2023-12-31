@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible"
+    content="IE=edge">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/724410fc52.js"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet"
+    href="bonsai.css">
+  <title>Responsive Web Design with Css Grid</title>
+</head>
+
+<body>
+
+  <!--navbar-->
+
+  <nav id="navbar"
+    class="navbar">
+
+    <div class="logo-container">
+      <i class="fa-brands fa-linux"></i>
+      <span>bonsai</span>
+    </div>
+
+    <div class="center">
+
+      <ul>
+        <li><a href="#"
+            id="show1">Products</a>
+          <select value=""
+            class="dropdown-content"
+            id="mySelect"
+            style="display: none;">
+            <option><a href="#">Vengeance</a></option>
+            <option><a href="#">Real life</a></option>
+          </select>
+        </li>
+
+        <li><a href="#"
+            id="show2">Template</a>
+          <select value=""
+            class="dropdown-content"
+            id="my-select"
+            style="display: none;">
+            <option><a href="#">Love fate</a></option>
+            <option><a href="#">Vengeance</a></option>
+          </select>
+        </li>
+
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Reviews</a></li>
+      </ul>
+    </div>
+
+
+    <div class="buttons">
+      <button class="login">Login</button>
+      <button class="start-free">Start Free</button>
+    </div>
+
+  </nav>
+
+  <!--navbar-->
+
+
+  <!--content-->
+
+  <div id="content">
+
+    <!--grid container-->
+    <div class="grid-container">
+
+      <div class="wrapper">
+
+        <div class="table basic">
+          <div class="price-section">
+            <div class="price-area">
+              <div class="inner-area">
+                <span class="text">$</span>
+                <span class="price">29</span>
+              </div>
+            </div>
+          </div>
+          <div class="package-name"></div>
+          <ul class="features">
+            <li>
+              <span class="list-name">One Selected Template</span>
+              <span class="icon check"><i class="fas fa-check"></i></span>
+            </li>
+            <li>
+              <span class="list-name">100% Responsive Design</span>
+              <span class="icon check"><i class="fas fa-check"></i></span>
+            </li>
+            <li>
+              <span class="list-name">Credit Remove Permission</span>
+              <span class="icon cross"><i class="fas fa-times"></i></span>
+            </li>
+            <li>
+              <span class="list-name">Lifetime Template Updates</span>
+              <span class="icon cross"><i class="fas fa-times"></i></span>
+            </li>
+          </ul>
+          <div class="btn"><button>Purchase</button></div>
+        </div>
+
+        <div class="table premium">
+          <div class="ribbon"><span>Recommend</span></div>
+          <div class="price-section">
+            <div class="price-area">
+              <div class="inner-area">
+                <span class="text">$</span>
+                <span class="price">59</span>
+              </div>
+            </div>
+          </div>
+          <div class="package-name"></div>
+          <ul class="features">
+            <li>
+              <span class="list-name">Five Existing Templates</span>
+              <span class="icon check"><i class="fas fa-check"></i></span>
+            </li>
+            <li>
+              <span class="list-name">100% Responsive Design</span>
+              <span class="icon check"><i class="fas fa-check"></i></span>
+            </li>
+            <li>
+              <span class="list-name">Credit Remove Permission</span>
+              <span class="icon check"><i class="fas fa-check"></i></span>
+            </li>
+            <li>
+              <span class="list-name">Lifetime Template Updates</span>
+              <span class="icon cross"><i class="fas fa-times"></i></span>
+            </li>
+          </ul>
+          <div class="btn"><button>Purchase</button></div>
+        </div>
+
+        <div class="table ultimate">
+          <div class="price-section">
+            <div class="price-area">
+              <div class="inner-area">
+                <span class="text">$</span>
+                <span class="price">99</span>
+              </div>
+            </div>
+          </div>
+          <div class="package-name"></div>
+          <ul class="features">
+            <li>
+              <span class="list-name">All Existing Templates</span>
+              <span class="icon check"><i class="fas fa-check"></i></span>
+            </li>
+            <li>
+              <span class="list-name">100% Responsive Design</span>
+              <span class="icon check"><i class="fas fa-check"></i></span>
+            </li>
+            <li>
+              <span class="list-name">Credit Remove Permission</span>
+              <span class="icon check"><i class="fas fa-check"></i></span>
+            </li>
+            <li>
+              <span class="list-name">Lifetime Template Updates</span>
+              <span class="icon check"><i class="fas fa-check"></i></span>
+            </li>
+          </ul>
+          <div class="btn"><button>Purchase</button></div>
+        </div>
+      </div>
+
+    </div>
+    <!--grid container-->
+
+    <!--column direction-->
+    <div class="column-direction">
+
+      <h1>Super charge your works with add-ons</h1>
+
+      <div class="column">
+        <div class="left">
+          <h2>Collaborators</h2>
+          <p>Invite other users to specific projects for limited access and functionality.</p>
+        </div>
+
+        <div class="right">
+          <h3>Free</h3>
+        </div>
+
+      </div>
+
+      <div class="column">
+        <div class="left">
+          <h2>Partners</h2>
+          <p>Invite other users for full account access and company management.</p>
+        </div>
+
+        <div class="right">
+          <h3>$9</h3>
+          <p>/months</p>
+        </div>
+
+      </div>
+
+      <div class="column">
+        <div class="left">
+          <h2>Bonsai Tax</h2>
+          <p>Track expenses, identity write-offs and estimate quarterly taxes easily.</p>
+          <a href="#">Learn more<i class="fa-solid fa-angle-right"></i></a>
+        </div>
+
+        <div class="right">
+          <h3>$10</h3>
+          <p>/months</p>
+        </div>
+
+      </div>
+
+
+      <!--blue container-->
+      <div class="blue-container">
+        <div class="arrow-left">
+          <h4>It's <span>your</span> business.</h4>
+          <h4>We're here to help it grow.</h4>
+        </div>
+
+        <button class="start-free">Start Free</button>
+      </div>
+      <!--blue container-->
+
+
+
+      <!--questions container-->
+      <div class="questions">
+        <h1>Frequently Asked Questions</h1>
+
+        <div class="selects">
+
+          <select name="questions"
+            id="dropdown">
+            <option value="">How does the 14 day free trial work?</option>
+            <option value="frequent-questions">How does the 14 day free trial work?</option>
+            <option value="frequent-questions">How does the 14 day free trial work?</option>
+            <option value="frequent-questions">How does the 14 day free trial work?</option>
+          </select>
+
+          <select name="questions"
+            id="dropdown">
+            <option value="">Can i change plans anytime?</option>
+            <option value="frequent-questions">Can i change plans anytime?</option>
+            <option value="frequent-questions">Can i change plans anytime?</option>
+            <option value="frequent-questions">Can i change plans anytime?</option>
+          </select>
+
+          <select name="questions"
+            id="dropdown">
+            <option value="">How do i pause my Bonsai Subscription?</option>
+            <option value="frequent-questions">How do i pause my Bonsai Subscription?</option>
+            <option value="frequent-questions">How do i pause my Bonsai Subscription?</option>
+            <option value="frequent-questions">How do i pause my Bonsai Subscription?</option>
+          </select>
+
+          <select name="questions"
+            id="dropdown">
+            <option value="">What is your refund policy?</option>
+            <option value="frequent-questions">What is your refund policy?</option>
+            <option value="frequent-questions">What is your refund policy?</option>
+            <option value="frequent-questions">What is your refund policy?</option>
+          </select>
+
+
+        </div>
+
+      </div>
+      <!--questions container-->
+
+
+    </div>
+    <!--column direction-->
+
+  </div>
+
+  <!--content-->
+
+
+
+  <!--footer-->
+
+  <footer>
+
+    <div class="footer">
+
+      <div class="row">
+        <h2>PRODUCTS</h2>
+        <ul>
+          <li>Proposals</li>
+          <li>Contracts</li>
+          <li>Invoicing</li>
+          <li>Client CRM</li>
+          <li>Time Tracking</li>
+          <li>Task Tracking</li>
+          <li>Forms</li>
+          <li>Accounting</li>
+          <li>Bonsai Tax</li>
+          <li>Bonsai Tax</li>
+        </ul>
+
+        <div class="last">
+          <h3 id="pricing">Pricing</h3>
+          <ul>
+            <li>Bonsai Reviews</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row free-resources">
+        <h2>Free Resources</h2>
+        <ul>
+          <li>Freelance Resources</li>
+          <li>Freelance Blog by Bonsai</li>
+          <li>How to write a contract</li>
+          <li>Online Signature Maker</li>
+        </ul>
+
+        <ul class="space">
+          <li>Self Employed Tax Calculator</li>
+          <li>Self Employed Tax Calculator</li>
+          <li>Self Employed Tax Deductions</li>
+        </ul>
+
+      </div>
+
+      <div class="row template">
+        <h3 id="template">Template</h3>
+        <select name=""
+          id="last-dropdowns">
+          <option value="">Self Employed Tax Calculator</option>
+          <option value=""> Self Employed Tax Calculator</option>
+          <option value=""> Self Employed Tax Deductions</option>
+        </select>
+
+        <select name=""
+          id="last-dropdowns">
+          <option value="">Self Employed Tax Calculator</option>
+          <option value=""> Self Employed Tax Calculator</option>
+          <option value=""> Self Employed Tax Deductions</option>
+        </select>
+
+        <select name=""
+          id="last-dropdowns">
+          <option value="">Self Employed Tax Calculator</option>
+          <option value=""> Self Employed Tax Calculator</option>
+          <option value=""> Self Employed Tax Deductions</option>
+        </select>
+
+        <select name=""
+          id="last-dropdowns">
+          <option value="">Self Employed Tax Calculator</option>
+          <option value=""> Self Employed Tax Calculator</option>
+          <option value=""> Self Employed Tax Deductions</option>
+        </select>
+
+        <select name=""
+          id="last-dropdowns">
+          <option value="">Self Employed Tax Calculator</option>
+          <option value=""> Self Employed Tax Calculator</option>
+          <option value=""> Self Employed Tax Deductions</option>
+        </select>
+
+        <select name=""
+          id="last-dropdowns">
+          <option value="">Self Employed Tax Calculator</option>
+          <option value=""> Self Employed Tax Calculator</option>
+          <option value=""> Self Employed Tax Deductions</option>
+        </select>
+
+        <select name=""
+          id="last-dropdowns">
+          <option value="">Self Employed Tax Calculator</option>
+          <option value=""> Self Employed Tax Calculator</option>
+          <option value=""> Self Employed Tax Deductions</option>
+        </select>
+
+        <ul>
+          <li>Credit Note Template</li>
+          <li>Estimate Template</li>
+        </ul>
+      </div>
+
+      <div class="row bonsai">
+        <h2>Bonsai</h2>
+        <ul>
+          <li>About</li>
+          <li>Careers</li>
+          <li>Support</li>
+          <li>LinkedIn</li>
+          <li>Twitter</li>
+          <li>Privacy Policy</li>
+          <li>Legal</li>
+          <ul>
+
+            <div class="last">
+              <ul>
+                <li>Affiliate</li>
+                <li>Write for Us</li>
+              </ul>
+            </div>
+
+            <div>
+              <select name=""
+                id="comparisons">
+                <option value="comparisons">Comparisons</option>
+                <option value="comparisons">Comparisons</option>
+                <option value="comparisons">Comparisons</option>
+              </select>
+            </div>
+      </div>
+
+    </div>
+
+    <p class="black">2023 Copyright@ <span>PrimeXV</span></p>
+
+  </footer>
+
+  <!--footer-->
+
+
+  <!--Javascript-->
+
+  <script src="bonsai.js"></script>
+
+  <!--Javascript-->
+
+</body>
+
+</html>
